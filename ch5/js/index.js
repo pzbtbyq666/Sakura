@@ -65,4 +65,16 @@ $(function() {
         controlsCurrentColor: "#00ff00", //当前控制按钮的颜色
     });
 
+    /* 二维码划出效果 */
+    $('.qr-code . ticket').hover(function() {
+        // 让二维码划出来
+        $('.qr-code div').stop(true).animate({
+            left: '-100px'
+        })
+    }, function() {
+        // 让二维码收回去
+        $('.qr-code div').stop(true).animate({
+            left: 0
+        })
+    })
 })
