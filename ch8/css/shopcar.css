@@ -1,0 +1,96 @@
+/* Shopcar-Style */
+.shopcar{
+    height: 630px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.shopcar h3{
+    font-size: 24px;
+    color: #ff6700;
+    text-indent: 20px;
+    font-weight: 500;
+}
+
+.shopcar table{
+    width: 1200px;
+    height: auto;
+    text-align: center;
+    box-shadow: 10px 5px 5px #ccc;
+}
+
+.shopcar table tbody tr{
+    height: 180px;
+    margin-bottom: 100px;
+    box-shadow: 10px 5px 5px #ccc;
+}
+
+.shopcar table tbody tr td img{
+    z-index: -1;
+}
+
+.shopcar table thead tr th{
+    height: 60px;
+    background-color: #f1f1f1;
+}
+
+.shopcar table button{
+    width: 20px;
+    height: 20px;
+}
+.shopcar table input{
+    width:60px;
+}
+
+
+.shopcar .totalPrice{
+    height: 60px;
+    font-weight: 100;
+    line-height: 60px;
+    font-size: 20px;
+    border: 2px solid #ccc;
+    margin-top: 20px;
+    box-shadow: 10px 5px 5px #ccc;
+    color: black;
+    position: relative;
+}
+
+.shopcar .totalPrice .right #one{
+    margin-right: 120px;
+    display: block;
+    float: left;
+}
+
+.shopcar .totalPrice .right span{
+
+}
+
+.shopcar .totalPrice .right span:first-child span{
+    font-size: 30px;
+    color: #ff6700;
+    font-weight: 500;
+}
+
+.shopcar .totalPrice .right .total{
+    font-weight: 500;
+}
+
+.shopcar .totalPrice .right .total .Bigprice{
+    font-size: 30px;
+    color: #ff6700;
+    display: inline-block;
+}
+
+.shopcar .totalPrice .right button{
+    padding:0;
+    height: 60px;
+    border: none;
+    background-color: #ff6700;
+    width: 120px;
+    margin-left: -119px;
+    position: absolute;
+}
+
+.shopcar .totalPrice span:first-of-type{
+    margin-left: 50px;
+}
