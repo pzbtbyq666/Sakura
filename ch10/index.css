@@ -1,0 +1,169 @@
+/* 1. 顶部 */
+.topbar{
+    height: 28px;
+    background-color: #101010;
+
+}
+.topbar .container{
+    height:28px;
+    background-color: #101010;
+
+}
+.topbar .container p{
+    height:28px;
+    line-height: 28px;
+    color: #f1f1f1;
+
+}
+.topbar .container p:first-child {
+    text-indent:210px;
+
+}
+.topbar .container p:first-child a {
+    color: #fff;
+    text-decoration: none;
+}
+.topbar .container p:nth-child(2){
+    margin-right:10px;
+}
+.topbar .container p:nth-child(2) a:not(.login){
+    color: #ff6700;
+}
+.topbar .container p:nth-child(2) .login{
+    color:#fff;
+}
+
+/* 2. 导航 */
+.nav{
+    height: 80px;
+    background-color:#fff;
+}
+.nav .search-shopcart-order{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    height: 35px;
+    
+}
+.nav .category-menu{
+    margin-top: 15px;
+    height: 30px;
+    background-color: red;
+}
+.nav .search-shopcart-order .search-input{
+    width: 440px;
+    height: 35px;
+    background-color: #ff6700;
+    margin-right: 38px;
+    background-image: url('../img/bgicon.png');
+    /* background-repeat: no-repeat; */
+
+}
+
+
+.nav .search-shopcart-order .search-input .search{
+    width: 380px;
+    height: 31px;
+    border: 2px solid #ff6700;
+    text-indent: 10px;
+    color: #333;
+    outline: none;
+}
+.nav .search-shopcart-order .shopcart-order{
+    width: 200px;
+    height: 35px;
+    background-color: pink;
+    font-size: 0;
+}
+.nav .search-shopcart-order .shopcart-order button{
+    width: 100px;
+    height: 35px;
+    background-color: #ebebeb;
+    border: 1px solid #ccc ;
+    font-size: 12px;
+    color: #333;
+}
+.nav .search-shopcart-order .shopcart-order button:nth-child(1){
+    background-color: #ff6700;
+    color: #fff;
+    /* background-image: url('../img/bgicon.png');
+    background-repeat: no-repeat;
+    background-position: -6px -44px; */
+}
+.nav .search-shopcart-order .shopcart-order button:nth-child(1) span:first-child{
+    /* background-color: green;
+    background-size: 20px 20px; */
+    background-image: url('../img/购物车.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 16px;
+    margin-right: 3px;
+}
+.nav .search-shopcart-order .shopcart-order button:nth-child(1) span:nth-child(2){
+    /* background-color: red; */
+    vertical-align: top;
+    display: inline-block;
+    /* width: 50px; */
+}
+.nav .search-shopcart-order .shopcart-order button:nth-child(1) span:nth-child(3){
+    /* background-color: blue; */
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    margin-left: 15px;
+}
+/* 3. 分类导航和banner */
+.menu{
+    height: 500px;
+    background-color:#333;
+
+}
+/* 4.今日推荐 */
+.recommend{
+    height: 500px;
+    background-color:#666;
+
+}
+/* 5.电子书 */
+.ebooks{
+    height: 500px;
+    background-color:#333;
+
+}
+/* 6.服装 */
+.clothes{
+    height: 500px;
+    background-color:#ccc;
+
+}
+/* 7.户外运动 */
+.sport{
+    height: 500px;
+    background-color:#333;
+
+}
+/* 8.童装 */
+.children-clothes{
+    height: 500px;
+    background-color:#ccc;
+
+}
+/* 9.家居日用 */
+.daily{
+    height: 500px;
+    background-color:#333;
+
+}
+/* 10.推广商品 */
+.promotion{
+    height: 500px;
+    background-color:#ccc;
+
+}
+/* 11.尾部 */
+.footer{
+    height: 500px;
+    background-color: #333;
+
+}
